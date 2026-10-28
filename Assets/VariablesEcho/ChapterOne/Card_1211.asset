@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6631072151535139854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c3f92b5a12774ccf9fb0830e400942c, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.DrawCardsEffect
+  SourceActions: []
+  TargetActions: []
+  Amount: 1
+--- !u!114 &-5253501043626472067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b17bfc0f4c2f5142b687785f2264f37, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: Assembly-CSharp::VariablesEcho.ChapterNoiseDescription
+  SourceActions: []
+  TargetActions: []
+  amount: -6
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4065f389b584708aa1b58cf25db28b, type: 3}
+  m_Name: Card_1211
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.CardTemplate
+  Id: 1211
+  Name: Doubt +
+  Cost: 1
+  Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  Picture: {fileID: 21300000, guid: 9a0a7eec36ac7444aa6bd030a0e30006, type: 3}
+  Type: {fileID: 11400000, guid: 5706228d194fe4efc9c75176d0986ca6, type: 2}
+  Upgrade: {fileID: 0}
+  Effects:
+  - {fileID: 6994544837238230533}
+  - {fileID: -6631072151535139854}
+  - {fileID: -5253501043626472067}
+  - {fileID: 8670848850068139848}
+  CardId: ch1-211-plus
+  Faction: 0
+  Rarity: 1
+  NoiseDelta: -6
+  IsSelfHarm: 0
+  IsPermanent: 0
+--- !u!114 &6994544837238230533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6cc1e3715bf47e4ac4b5e000e9c445, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.DealDamageEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 1
+  Value: 7
+--- !u!114 &8670848850068139848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcfe3081add0a49c39d2ea2fa53f313d, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.ApplyStatusEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 1
+  Value: 1
+  Status: {fileID: 11400000, guid: 5a3b5b978683c4a72a25d84d8a36060d, type: 2}

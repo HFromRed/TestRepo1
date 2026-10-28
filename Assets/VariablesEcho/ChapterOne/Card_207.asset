@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2078221649659151380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b17bfc0f4c2f5142b687785f2264f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VariablesEcho.ChapterNoiseDescription
+  SourceActions: []
+  TargetActions: []
+  amount: 12
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4065f389b584708aa1b58cf25db28b, type: 3}
+  m_Name: Card_207
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.CardTemplate
+  Id: 207
+  Name: Feedback
+  Cost: 1
+  Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  Picture: {fileID: 21300000, guid: 3d9b1e64c8a4bbe4e999eb9083d01521, type: 3}
+  Type: {fileID: 11400000, guid: 5706228d194fe4efc9c75176d0986ca6, type: 2}
+  Upgrade: {fileID: 11400000, guid: b71413a879f5a3c43bc81ea27d2d5c39, type: 2}
+  Effects:
+  - {fileID: 7134780462787055054}
+  - {fileID: -2078221649659151380}
+  CardId: ch1-207
+  Faction: 1
+  Rarity: 1
+  NoiseDelta: 12
+  IsSelfHarm: 0
+  IsPermanent: 0
+--- !u!114 &7134780462787055054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6cc1e3715bf47e4ac4b5e000e9c445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.DealDamageEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 1
+  Value: 12

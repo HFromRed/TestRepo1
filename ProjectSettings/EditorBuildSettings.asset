@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/VariablesEcho/ChapterOne/ChapterOne.unity
+    guid: 459053058c4b2d8469b98371ab6dd3ff
+  - enabled: 1
+    path: Assets/VariablesEcho/ChapterOne/ChapterBattle.unity
+    guid: 68d136fddd718294eb8908d4e8674f31
+  - enabled: 1
+    path: Assets/VariablesEcho/Demo/Scenes/BattleDemo.unity
+    guid: bc758e72d3e3a7449ba792fdc1f40f9a
+  - enabled: 1
+    path: Assets/SinglePlayerCCGKit/Scenes/Map.unity
+    guid: 8da417e458d8248218d82c73e3253276
+  - enabled: 1
+    path: Assets/SinglePlayerCCGKit/Scenes/Game.unity
+    guid: d0b42c3c1f4c743cbabb99ffbe23de6a
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: f6aebd91702dfb847963db7ea5bb2901, type: 2}

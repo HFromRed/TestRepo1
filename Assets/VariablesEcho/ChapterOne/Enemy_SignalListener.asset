@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8944546363268288802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1c880b3ddf8a654f8cf2080dfd7af14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VariablesEcho.NoiseEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 0
+  Value: 12
+--- !u!114 &-7547075265441341680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69320ca4a48714254a7323e18c873ab8, type: 3}
+  m_Name: Sequence 3
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.RepeatPattern
+  Effects:
+  - {fileID: -2542241357051899337}
+  Times: 1
+  Sprite: {fileID: 21300000, guid: c0a694ab7b4b7e9428d34143a2d7c2de, type: 3}
+--- !u!114 &-5596706098328511879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6cc1e3715bf47e4ac4b5e000e9c445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.DealDamageEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 1
+  Value: 7
+--- !u!114 &-2542241357051899337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6cc1e3715bf47e4ac4b5e000e9c445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.DealDamageEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 1
+  Value: 10
+--- !u!114 &-690343737191467072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69320ca4a48714254a7323e18c873ab8, type: 3}
+  m_Name: Sequence 1
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.RepeatPattern
+  Effects:
+  - {fileID: -5596706098328511879}
+  Times: 1
+  Sprite: {fileID: 21300000, guid: c0a694ab7b4b7e9428d34143a2d7c2de, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70b95182502fc4277b897af15ceb2c04, type: 3}
+  m_Name: Enemy_SignalListener
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.EnemyTemplate
+  Name: Signal Listener
+  Prefab: {fileID: 4688690257189987144, guid: 2bafea43346ff6840886e6357fe1df55, type: 3}
+  Actions: []
+  HpLow: 44
+  HpHigh: 44
+  Patterns:
+  - {fileID: -690343737191467072}
+  - {fileID: 6611572790372060481}
+  - {fileID: -7547075265441341680}
+  EchoProfile: {fileID: 0}
+--- !u!114 &6537061515508640586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff6e22d632db2471b9782fe8ba4ae0d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.GainShieldEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 0
+  Value: 7
+--- !u!114 &6611572790372060481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69320ca4a48714254a7323e18c873ab8, type: 3}
+  m_Name: Sequence 2
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.RepeatPattern
+  Effects:
+  - {fileID: 6537061515508640586}
+  - {fileID: -8944546363268288802}
+  Times: 1
+  Sprite: {fileID: 21300000, guid: 2ae9c12114a1bfa47afa34299c4459bc, type: 3}

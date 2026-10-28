@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e31e688086974d25bb4daf05c561641, type: 3}
+  m_Name: WizardRewards
+  m_EditorClassIdentifier: 
+  Name: Rewards
+  Entries:
+  - Card: {fileID: 11400000, guid: 38ed43ce237cd420d8860ce7561ab364, type: 2}
+    NumCopies: 1
+  - Card: {fileID: 11400000, guid: 887b0d08a2bf2439ab3933e1fc07242f, type: 2}
+    NumCopies: 1
+  - Card: {fileID: 11400000, guid: 1f2feca1795df401497cbb033734b524, type: 2}
+    NumCopies: 1
+  - Card: {fileID: 11400000, guid: 7500ff32c32a440dca03c8b1c01b3d5b, type: 2}
+    NumCopies: 1

@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8189267326178404598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff6e22d632db2471b9782fe8ba4ae0d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.GainShieldEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 0
+  Value: 6
+--- !u!114 &-7255594034451315946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b17bfc0f4c2f5142b687785f2264f37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VariablesEcho.ChapterNoiseDescription
+  SourceActions: []
+  TargetActions: []
+  amount: 8
+--- !u!114 &-5467903920908125758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6cc1e3715bf47e4ac4b5e000e9c445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.DealDamageEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 1
+  Value: 14
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4065f389b584708aa1b58cf25db28b, type: 3}
+  m_Name: Card_208
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.CardTemplate
+  Id: 208
+  Name: Refusal
+  Cost: 2
+  Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  Picture: {fileID: 21300000, guid: 3d9b1e64c8a4bbe4e999eb9083d01521, type: 3}
+  Type: {fileID: 11400000, guid: 5706228d194fe4efc9c75176d0986ca6, type: 2}
+  Upgrade: {fileID: 11400000, guid: 262284a0df0281a4e9478b17f889c97a, type: 2}
+  Effects:
+  - {fileID: -5467903920908125758}
+  - {fileID: -8189267326178404598}
+  - {fileID: -7255594034451315946}
+  CardId: ch1-208
+  Faction: 1
+  Rarity: 1
+  NoiseDelta: 8
+  IsSelfHarm: 0
+  IsPermanent: 0

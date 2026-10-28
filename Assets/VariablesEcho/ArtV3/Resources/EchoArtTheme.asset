@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc193575be8d5c4abd6c1c818468d55, type: 3}
+  m_Name: EchoArtTheme
+  m_EditorClassIdentifier: Assembly-CSharp::VariablesEcho.EchoArtTheme
+  ivoryBackground: {fileID: 21300000, guid: 6a59a8fd190613c44813b264e6a0d486, type: 3}
+  wastelandBackground: {fileID: 21300000, guid: 21b748d25de753343b2c9a3cc239563c, type: 3}
+  neonBackground: {fileID: 21300000, guid: d29e76af5a54d1143a1b842e457469a5, type: 3}
+  warden: {fileID: 21300000, guid: 2ba0b1e055e275143832142f0e206c1d, type: 3}
+  salvager: {fileID: 21300000, guid: e854150ddd462f64a8b44ee96793e4ea, type: 3}
+  cardFrame: {fileID: 21300000, guid: 72c5588915a8d3b4eaaa24de82582e4f, type: 3}
+  panel: {fileID: 21300000, guid: 4844f189b5e6281459cf51f799047b80, type: 3}
+  button: {fileID: 21300000, guid: 65d6e3ac4952e634f85c0630f3f01ae4, type: 3}
+  buttonHover: {fileID: 21300000, guid: 7544790a6f3ef564792f8c63b9ff87ab, type: 3}
+  buttonPressed: {fileID: 21300000, guid: f8be61c9b39c525489297ff423cf582d, type: 3}
+  buttonDisabled: {fileID: 21300000, guid: a0450d5f3b4e0914ea22ba5627c92e83, type: 3}
+  cardOutline: {fileID: 21300000, guid: 139374ed61c7ad4489804587aac4606c, type: 3}
+  attackIcon: {fileID: 21300000, guid: c0a694ab7b4b7e9428d34143a2d7c2de, type: 3}
+  blockIcon: {fileID: 21300000, guid: 2ae9c12114a1bfa47afa34299c4459bc, type: 3}
+  noiseIcon: {fileID: 21300000, guid: 4e73047f0baaef5419d33108a7ef091c, type: 3}
+  memoryIcon: {fileID: 21300000, guid: a2b72ee66d512b8448c6481335fbac63, type: 3}
+  ivory: {r: 0.86, g: 0.83, b: 0.73, a: 1}
+  teal: {r: 0.32, g: 0.84, b: 0.79, a: 1}
+  coral: {r: 0.99, g: 0.39, b: 0.42, a: 1}

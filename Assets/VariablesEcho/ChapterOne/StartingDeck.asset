@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e31e688086974d25bb4daf05c561641, type: 3}
+  m_Name: StartingDeck
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.CardLibrary
+  Name: Grey-7
+  Entries:
+  - Card: {fileID: 11400000, guid: e9f7c377644a7e143a01c8944dfda740, type: 2}
+    NumCopies: 5
+  - Card: {fileID: 11400000, guid: 52eda5ed26f578c42bfea3f24b9a6f1f, type: 2}
+    NumCopies: 4
+  - Card: {fileID: 11400000, guid: 5bde67f2bf064c14190f967539936500, type: 2}
+    NumCopies: 1

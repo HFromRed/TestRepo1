@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Default Local Group
+  m_GUID: bf1bd5827bc5cc74bb077fdf33670eaa
+  m_SerializeEntries:
+  - m_GUID: 02bd94ff9f8b23c4db8e177731001a20
+    m_Address: Assets/VariablesEcho/Demo
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10a9e01e9e671934581f5f2d2906d27c
+    m_Address: EchoDemo/WardenHero
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24266acfc6c4cdb4290eabdea1d518b6
+    m_Address: Assets/VariablesEcho/Demo/Art/Assets/VariablesEcho/Demo/Art/defend.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f1de425b552748aebd197be4b32787d
+    m_Address: Assets/SinglePlayerCCGKit/Rigs/Animations/WizardIdle.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53030f4b933644115a80ce9e8b2396a1
+    m_Address: Assets/SinglePlayerCCGKit/Prefabs/Characters/Wizard.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57553809f140040fea4c46fa12b7db04
+    m_Address: Assets/SinglePlayerCCGKit/GameData/Collections/WizardDeck.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5830c7f7d362e4a6589f13621a505cbc
+    m_Address: Assets/SinglePlayerCCGKit/Rigs/Sprites/Wizard/WizardShine.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65fd50fe20dba4cabb84c511090a9b60
+    m_Address: Assets/SinglePlayerCCGKit/Rigs/Sprites/Wizard
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ef9716f3c4bf44dfac487465bc95226
+    m_Address: Assets/SinglePlayerCCGKit/GameData/Collections/WizardRewards.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9659c406322ca4ecf8ca45c5f331f95f
+    m_Address: Demon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2d61e1df2406fb4bac91c4c17838986
+    m_Address: Assets/VariablesEcho/Demo/Art
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a38da095e6e0d4d799c6cfa500e10b5f
+    m_Address: Assets/SinglePlayerCCGKit/GameData/Heroes/Wizard.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5bcf675fc9944549bdc9ed36d5c2522
+    m_Address: EchoDemo/NexusMarauder
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab52ee3181f45de45adfb9da4ec90529
+    m_Address: Assets/VariablesEcho/Demo/Art/Assets/VariablesEcho/Demo/Art/bash.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b233966173a5041a797da2fc498c54d0
+    m_Address: Dragon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1c6ec8166eb8ef439abf89645fe1d5f
+    m_Address: EchoConfig
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c54d62d2a017a4644a15ef4114b06bec
+    m_Address: Assets/SinglePlayerCCGKit/Rigs/Animations/Wizard.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d109e17c758a840b0a326e9d0f4352ba
+    m_Address: Assets/SinglePlayerCCGKit/Rigs/Sprites/Wizard/Wizard.psb
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3b293f9d22ea0e489aacd378e21fbd2
+    m_Address: Assets/VariablesEcho/Demo/Art/Assets/VariablesEcho/Demo/Art
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0f28064a3bdb40c5bda164a623dd985
+    m_Address: Beholder
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f663b587c85bf484ea3ec3a1dc02990d
+    m_Address: Assets/VariablesEcho/Demo/Art/Backgrounds
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d215d310ca1bbf346a9bb3d92f2d7cb1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b317788d629da6049b7aa847d6aa7554, type: 2}
+    - {fileID: 11400000, guid: 26e615352b2b3344291a3ca5369b9a19, type: 2}

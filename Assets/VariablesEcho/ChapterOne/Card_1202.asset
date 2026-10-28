@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4065f389b584708aa1b58cf25db28b, type: 3}
+  m_Name: Card_1202
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.CardTemplate
+  Id: 1202
+  Name: Defend +
+  Cost: 1
+  Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  Picture: {fileID: 21300000, guid: b3ce5908b0bf4be4f9cd2e29e35b8166, type: 3}
+  Type: {fileID: 11400000, guid: 9c69fd0030dd74af2965de4ca9e2c7dc, type: 2}
+  Upgrade: {fileID: 0}
+  Effects:
+  - {fileID: 1536787536969085009}
+  CardId: ch1-202-plus
+  Faction: 0
+  Rarity: 1
+  NoiseDelta: 0
+  IsSelfHarm: 0
+  IsPermanent: 0
+--- !u!114 &1536787536969085009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff6e22d632db2471b9782fe8ba4ae0d7, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.GainShieldEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 0
+  Value: 8

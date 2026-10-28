@@ -1,0 +1,300 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9030876238779996585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1c880b3ddf8a654f8cf2080dfd7af14, type: 3}
+  m_Name: Enemy_Noise5
+  m_EditorClassIdentifier: Assembly-CSharp::VariablesEcho.NoiseEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 0
+  Value: 5
+--- !u!114 &-8560406641700095333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6cc1e3715bf47e4ac4b5e000e9c445, type: 3}
+  m_Name: Enemy_Attack9
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.DealDamageEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 1
+  Value: 9
+--- !u!114 &-7863479730334285092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff6e22d632db2471b9782fe8ba4ae0d7, type: 3}
+  m_Name: Counter_MirrorShield
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.GainShieldEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 0
+  Value: 5
+--- !u!114 &-6896894184603089947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6cc1e3715bf47e4ac4b5e000e9c445, type: 3}
+  m_Name: Enemy_CorrosiveDamage
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.DealDamageEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 1
+  Value: 4
+--- !u!114 &-3746607887931245530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff6e22d632db2471b9782fe8ba4ae0d7, type: 3}
+  m_Name: Counter_BulwarkShield
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.GainShieldEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 0
+  Value: 10
+--- !u!114 &-2852556967592130304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6cc1e3715bf47e4ac4b5e000e9c445, type: 3}
+  m_Name: Counter_FlushDamage
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.DealDamageEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 1
+  Value: 4
+--- !u!114 &-2596103195645360019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6cc1e3715bf47e4ac4b5e000e9c445, type: 3}
+  m_Name: Counter_BreakerDamage
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.DealDamageEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 1
+  Value: 5
+--- !u!114 &-1870379587814783368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6cc1e3715bf47e4ac4b5e000e9c445, type: 3}
+  m_Name: Counter_IdleDamage
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.DealDamageEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 1
+  Value: 7
+--- !u!114 &-1533404077816804551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff6e22d632db2471b9782fe8ba4ae0d7, type: 3}
+  m_Name: Enemy_Shield6
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.GainShieldEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 0
+  Value: 6
+--- !u!114 &-1218456327049353691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcfe3081add0a49c39d2ea2fa53f313d, type: 3}
+  m_Name: Counter_BulwarkStrength
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.ApplyStatusEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 0
+  Value: 2
+  Status: {fileID: 11400000, guid: 71f3613cdeac64275abdc18725b617ae, type: 2}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70b95182502fc4277b897af15ceb2c04, type: 3}
+  m_Name: NexusMarauder
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.EnemyTemplate
+  Name: Nexus Marauder
+  Prefab: {fileID: 7715418626371799884, guid: e638c1d06cc30e740a6b7468dc165028, type: 3}
+  Actions: []
+  HpLow: 82
+  HpHigh: 88
+  Patterns:
+  - {fileID: 8937993002359384222}
+  - {fileID: 6907798875585772563}
+  - {fileID: 2562920884834949203}
+  EchoProfile: {fileID: 11400000, guid: e203c907cd79e9549a33f0501ba4fb71, type: 2}
+--- !u!114 &400627030865233186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1c880b3ddf8a654f8cf2080dfd7af14, type: 3}
+  m_Name: Counter_BreakerNoise
+  m_EditorClassIdentifier: Assembly-CSharp::VariablesEcho.NoiseEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 0
+  Value: 10
+--- !u!114 &2562920884834949203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69320ca4a48714254a7323e18c873ab8, type: 3}
+  m_Name: Pattern_CorrosiveGrip
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.RepeatPattern
+  Effects:
+  - {fileID: -6896894184603089947}
+  - {fileID: 4751961243662758272}
+  Times: 1
+  Sprite: {fileID: 21300000, guid: 56d318b93a9e8d844a503d8b64e7fa02, type: 3}
+--- !u!114 &4751961243662758272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcfe3081add0a49c39d2ea2fa53f313d, type: 3}
+  m_Name: Enemy_CorrosiveWeak
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.ApplyStatusEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 1
+  Value: 1
+  Status: {fileID: 11400000, guid: 5a3b5b978683c4a72a25d84d8a36060d, type: 2}
+--- !u!114 &6795259505801553261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3147c9d0a37a9b54b9b944fea1144a8d, type: 3}
+  m_Name: Counter_MirrorReflect
+  m_EditorClassIdentifier: Assembly-CSharp::VariablesEcho.ReflectEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 0
+  Value: 3
+--- !u!114 &6907798875585772563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69320ca4a48714254a7323e18c873ab8, type: 3}
+  m_Name: Pattern_StaticField
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.RepeatPattern
+  Effects:
+  - {fileID: -1533404077816804551}
+  - {fileID: -9030876238779996585}
+  Times: 2
+  Sprite: {fileID: 21300000, guid: aa14075a535f44843931b3e1b119ee38, type: 3}
+--- !u!114 &7981601014214431742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1c880b3ddf8a654f8cf2080dfd7af14, type: 3}
+  m_Name: Counter_FlushNoise
+  m_EditorClassIdentifier: Assembly-CSharp::VariablesEcho.NoiseEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 0
+  Value: 8
+--- !u!114 &8937993002359384222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69320ca4a48714254a7323e18c873ab8, type: 3}
+  m_Name: Pattern_CageRush
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.RepeatPattern
+  Effects:
+  - {fileID: -8560406641700095333}
+  Times: 1
+  Sprite: {fileID: 21300000, guid: 9d5fc6a293f4bb948b49fbc6783858e8, type: 3}

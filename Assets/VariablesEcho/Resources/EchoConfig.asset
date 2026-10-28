@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58cc39a7cc89263448abc99a6031dce4, type: 3}
+  m_Name: EchoConfig
+  m_EditorClassIdentifier: Assembly-CSharp::VariablesEcho.EchoConfig
+  maxNoise: 100
+  stableMax: 35
+  driftMax: 69
+  trackedThreshold: 70
+  trackedTurnThreshold: 2
+  omegaDecay: 12
+  nexusDecay: 5
+  defaultDecay: 8
+  damageBonusPerTenNoise: 0.03
+  halvePositiveNoiseWhenTracked: 1
+  maxPredictLocks: 3
+  useConfidenceForDrift: 1
+  applyPredictLockStatus: 0
+  showDebugHud: 1
+  initialPollution: 12
+  pollutionPerNoiseCard: 0.05
+  pollutionPerRejectedCalibration: 0.3
+  pollutionPerShard: 0.4
+  maxPollutionPerRun: 3
+  clearKitProgressOnRunEnd: 1
+  autoStartRun: 1
+  defaultOpponent: 1
+  defaultPlayerClass: 0

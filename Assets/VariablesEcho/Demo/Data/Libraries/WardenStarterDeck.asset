@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e31e688086974d25bb4daf05c561641, type: 3}
+  m_Name: WardenStarterDeck
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.CardLibrary
+  Name: Warden Starter Deck
+  Entries:
+  - Card: {fileID: 11400000, guid: f082889ebba940a469f80421aa2bb596, type: 2}
+    NumCopies: 5
+  - Card: {fileID: 11400000, guid: 1d62fae8a540101498f8b3c53541ed78, type: 2}
+    NumCopies: 4
+  - Card: {fileID: 11400000, guid: 6abcb5a586186324383060fb2ce92b9d, type: 2}
+    NumCopies: 1
+  - Card: {fileID: 11400000, guid: 810a2ac1f1ab2874aac570c9fae772ec, type: 2}
+    NumCopies: 2
