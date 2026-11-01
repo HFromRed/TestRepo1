@@ -1,4 +1,4 @@
-﻿// Copyright (C) 2019-2021 gamevanilla. All rights reserved.
+// Copyright (C) 2019-2021 gamevanilla. All rights reserved.
 // This code can only be used under the standard Unity Asset Store End User License Agreement,
 // a copy of which is available at http://unity3d.com/company/legal/as_terms.
 
@@ -33,9 +33,9 @@ namespace CCGKit
 
         private CanvasGroup canvasGroup;
 
-        private const string VictoryText = "Victory";
-        private const string DefeatText = "Defeat";
-        private const string DefeatDescriptionText = "The dungeon run was too hard this time... better luck next time!";
+        private const string VictoryText = "胜利";
+        private const string DefeatText = "失败";
+        private const string DefeatDescriptionText = "本次探索结束，再接再厉！";
         private const float FadeInTime = 0.4f;
 
         private void Awake()

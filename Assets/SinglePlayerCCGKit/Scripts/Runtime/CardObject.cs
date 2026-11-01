@@ -125,7 +125,7 @@ namespace CCGKit
             }
             // === End Variables Echo integration ===
             nameText.text = Template.Name;
-            typeText.text = Template.IsNoiseCard ? "OVERLOAD" : "PROTOCOL";
+            typeText.text = Template.IsNoiseCard ? "过载" : "协议";
             var builder = new StringBuilder();
             foreach (var effect in Template.Effects)
             {

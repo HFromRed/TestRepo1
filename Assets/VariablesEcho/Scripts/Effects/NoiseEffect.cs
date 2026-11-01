@@ -14,7 +14,7 @@ namespace VariablesEcho
     {
         public override string GetName()
         {
-            return $"Noise {(Value >= 0 ? "+" : "")}{Value}";
+            return $"噪声 {(Value >= 0 ? "+" : "")}{Value}";
         }
 
         public override void Resolve(RuntimeCharacter instigator, RuntimeCharacter target)

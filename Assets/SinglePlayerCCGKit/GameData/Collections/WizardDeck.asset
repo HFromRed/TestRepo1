@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e31e688086974d25bb4daf05c561641, type: 3}
   m_Name: WizardDeck
   m_EditorClassIdentifier: 
-  Name: Deck
+  Name: 牌组
   Entries:
   - Card: {fileID: 11400000, guid: 6e08841db905043afb99a7e7d6e64724, type: 2}
     NumCopies: 3

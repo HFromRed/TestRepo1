@@ -44,10 +44,10 @@ MonoBehaviour:
   m_Name: Card_1205
   m_EditorClassIdentifier: Assembly-CSharp::CCGKit.CardTemplate
   Id: 1205
-  Name: Read Between +
+  Name: 弦外之音 +
   Cost: 1
   Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  Picture: {fileID: 21300000, guid: 9a0a7eec36ac7444aa6bd030a0e30006, type: 3}
+  Picture: {fileID: 21300000, guid: d2b5a8ba1524bf34e9bbc6617dbd898b, type: 3}
   Type: {fileID: 11400000, guid: 9c69fd0030dd74af2965de4ca9e2c7dc, type: 2}
   Upgrade: {fileID: 0}
   Effects:

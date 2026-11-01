@@ -18,7 +18,7 @@ namespace VariablesEcho
 
             var damage = rawDamage;
             if (instigator.Status != null)
-                damage += instigator.Status.GetValue("Strength");
+                damage += instigator.Status.GetValue("Strength") + instigator.Status.GetValue("Amplify");
             else
                 damage += 0;
 

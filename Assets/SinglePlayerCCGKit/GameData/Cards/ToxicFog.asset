@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ToxicFog
   m_EditorClassIdentifier: 
   Id: 7
-  Name: Toxic Fog
+  Name: 毒雾
   Cost: 1
   Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   Picture: {fileID: 21300000, guid: 9b8bfec8a8eb445bb9edaef32d0d62ae, type: 3}

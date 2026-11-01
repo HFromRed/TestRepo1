@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd67e5e2e21cb494c93012ae29ff6b22, type: 3}
   m_Name: Grey7
   m_EditorClassIdentifier: Assembly-CSharp::CCGKit.HeroTemplate
-  Name: Grey-7
+  Name: 灰七
   Prefab: {fileID: 7820850805877923692, guid: 52d494c8525095f44ba85efb037d3a73, type: 3}
   Actions: []
   Hp: 80

@@ -15,23 +15,42 @@ namespace VariablesEcho
     {
         private static readonly Dictionary<string, string> Descriptions = new Dictionary<string, string>
         {
-            { "Weak", "Deals 25% less damage.\nDecreases by 1 at the end of this character's turn." },
-            { "Strength", "Every attack deals extra damage equal to its stacks." },
-            { "Poison", "Loses HP equal to its stacks at the start of the turn,\nthen Poison decreases by 1." },
-            { "Fragile", "Takes 25% more damage from attacks." },
-            { "Reflect", "Returns part of the damage taken back to the attacker." },
-            { "PredictLock", "Prediction locked: this unit's intent cannot be read." }
+            { "虚弱", "攻击伤害降低 25%，向下取整。自身回合结束时减少 1 层。" },
+            { "力量", "每段攻击增加等于层数的伤害。自身回合结束时减少 1 层。" },
+            { "增幅", "本场战斗每段攻击增加等于层数的伤害，回合结束不衰减。" },
+            { "中毒", "回合开始时失去等于层数的生命，随后减少 1 层。" },
+            { "易伤", "受到的攻击伤害增加 25%。自身回合结束时减少 1 层。" },
+            { "反射", "受到正数攻击伤害时，对攻击者造成反伤，数值取反射层数与本次伤害的较小值。反伤直接扣除生命，护盾挡住攻击也能触发。本场战斗不自然衰减。" },
+            { "预测锁定", "增加预测锁定层数，使下一次敌人意图显示更多信息。" },
+            { "护盾", "优先抵挡攻击伤害。直接失去生命和反伤不受护盾保护。" },
+            { "噪声", "提高输出并降低意图精度。0～35 显示精确意图；36～69 显示区间；70～100 隐藏数值，回合结束受到反噬。打出护盾牌可恢复本回合精确信息。" },
+            { "抽牌", "从抽牌堆将卡牌加入手牌。抽牌堆耗尽时重新洗入弃牌。" },
+            { "能量", "打出卡牌需要消耗对应能量，每回合按角色配置恢复。" },
+            { "失去生命", "直接扣除生命，不经过护盾。" }
         };
-
+        public static string Localize(string name)
+        {
+            switch(name) {
+                case "Weak":return "虚弱";case "Strength":return "力量";case "Amplify":return "增幅";
+                case "Poison":return "中毒";case "Fragile":return "易伤";
+                case "Reflect":case "反伤":return "反射";case "PredictLock":return "预测锁定";
+                default:return name;
+            }
+        }
         public static string Describe(string statusName)
         {
-            if (string.IsNullOrEmpty(statusName))
-                return string.Empty;
-
+            if(string.IsNullOrEmpty(statusName))return string.Empty;
             string text;
-            return Descriptions.TryGetValue(statusName, out text)
-                ? text
-                : "Status effect applied by a card or an enemy ability.";
+            return Descriptions.TryGetValue(Localize(statusName),out text)?text:"由卡牌或敌人技能施加的状态，数值表示当前层数。";
+        }
+        public static string ExplainTerms(string text)
+        {
+            var parts=new List<string>();
+            if(string.IsNullOrEmpty(text))return "";
+            foreach(var pair in Descriptions)
+                if(text.Contains(pair.Key) || (pair.Key=="抽牌" && text.Contains("抽取")) || (pair.Key=="反射" && text.Contains("反伤")))
+                    parts.Add(pair.Key+"："+pair.Value);
+            return string.Join("\n\n",parts);
         }
 
         public static void Install()
@@ -175,7 +194,7 @@ namespace VariablesEcho
             if (string.IsNullOrEmpty(statusName) || tooltip == null)
                 return;
 
-            title.text = statusName.ToUpperInvariant();
+            title.text = EchoStatusTooltip.Localize(statusName);
             body.text = EchoStatusTooltip.Describe(statusName);
 
             body.ForceMeshUpdate();

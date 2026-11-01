@@ -14,7 +14,7 @@ namespace VariablesEcho
     {
         public override string GetName()
         {
-            return $"Reflect +{Value}";
+            return $"反射 +{Value}";
         }
 
         public override void Resolve(RuntimeCharacter instigator, RuntimeCharacter target)

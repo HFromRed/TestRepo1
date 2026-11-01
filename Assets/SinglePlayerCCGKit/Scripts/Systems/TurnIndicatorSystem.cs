@@ -23,7 +23,7 @@ namespace CCGKit
 
         public void OnPlayerTurnBegan()
         {
-            text.text = "Player Turn";
+            text.text = "你的回合";
             var seq = DOTween.Sequence();
             seq.Append(turnIndicator.GetComponent<RectTransform>().DOScale(0.5f, InAnimDuration));
             seq.AppendInterval(ShowcaseDuration);
@@ -32,7 +32,7 @@ namespace CCGKit
 
         public void OnEnemyTurnBegan()
         {
-            text.text = "Enemy Turn";
+            text.text = "敌方回合";
             var seq = DOTween.Sequence();
             seq.Append(turnIndicator.GetComponent<RectTransform>().DOScale(0.5f, InAnimDuration));
             seq.AppendInterval(ShowcaseDuration);

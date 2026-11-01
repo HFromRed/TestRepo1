@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdef38e41f64242569b8bf7fa47c85f1, type: 3}
   m_Name: Poison
   m_EditorClassIdentifier: 
-  Name: Poison
+  Name: 中毒
   Sprite: {fileID: 21300000, guid: e8fa2fa792a484598bd3a1f19c0b8756, type: 3}

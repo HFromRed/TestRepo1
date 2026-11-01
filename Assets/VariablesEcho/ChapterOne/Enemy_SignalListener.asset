@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95182502fc4277b897af15ceb2c04, type: 3}
   m_Name: Enemy_SignalListener
   m_EditorClassIdentifier: Assembly-CSharp::CCGKit.EnemyTemplate
-  Name: Signal Listener
+  Name: 信号监听者
   Prefab: {fileID: 4688690257189987144, guid: 2bafea43346ff6840886e6357fe1df55, type: 3}
   Actions: []
   HpLow: 44

@@ -379,7 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95182502fc4277b897af15ceb2c04, type: 3}
   m_Name: Beholder
   m_EditorClassIdentifier: 
-  Name: Beholder
+  Name: 眼魔
   Prefab: {fileID: 6204200235959858272, guid: 906f66d7f7c5a4eb5910933f38958dec, type: 3}
   Actions:
   - {fileID: 6455251167728607953}

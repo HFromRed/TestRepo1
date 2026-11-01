@@ -14,7 +14,7 @@ namespace VariablesEcho
     {
         public override string GetName()
         {
-            return $"Lose {Value} HP";
+            return $"失去 {Value} 点生命";
         }
 
         public override void Resolve(RuntimeCharacter instigator, RuntimeCharacter target)

@@ -18,6 +18,8 @@ namespace VariablesEcho
         public string id, title;
         [TextArea(3, 8)] public string story;
         public int depth;
+        public Vector2 mapPosition;
+        public List<string> nextNodeIds = new List<string>();
         public ChapterNodeKind kind;
         public EchoArtRegion region;
         public EnemyTemplate enemy;
@@ -39,8 +41,14 @@ namespace VariablesEcho
     }
     [Serializable] public class ChapterSave
     {
+        public string runId;
+        public int act = 1, storyPage;
+        public bool keptMemory, sharedArchive;
+        public string resultTitle, resultText, resultEffects, epilogue;
         public int version = 1, seed, depth, hp = 80, credits = 30, memory, startingNoise, heroVariant;
         public string phase = "Map", nodeId, ending;
+        public string completedNodeId = "";
+        public List<string> visitedNodeIds = new List<string>();
         public bool shopBought, shopRemoved;
         public List<int> deck = new List<int>();
         public List<int> reward = new List<int>();

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdef38e41f64242569b8bf7fa47c85f1, type: 3}
   m_Name: Weak
   m_EditorClassIdentifier: 
-  Name: Weak
+  Name: 虚弱
   Sprite: {fileID: 21300000, guid: 4e73047f0baaef5419d33108a7ef091c, type: 3}

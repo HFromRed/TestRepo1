@@ -38,7 +38,7 @@ namespace CCGKit
 
             costText.text = template.Cost.ToString();
             nameText.text = template.Name;
-            typeText.text = "Spell";
+            typeText.text = "法术";
             var builder = new StringBuilder();
             foreach (var effect in template.Effects)
             {

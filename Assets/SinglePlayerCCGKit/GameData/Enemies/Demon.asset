@@ -379,7 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95182502fc4277b897af15ceb2c04, type: 3}
   m_Name: Demon
   m_EditorClassIdentifier: 
-  Name: Demon
+  Name: 恶魔
   Prefab: {fileID: 5698836238204436691, guid: 7669e48c8eaf24dc2a9f578c96c5c98f, type: 3}
   Actions:
   - {fileID: 6455251167728607953}

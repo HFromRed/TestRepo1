@@ -80,8 +80,10 @@ namespace VariablesEcho
             c.Save();Check(c.Resume(),"checkpoint deserializes");
             yield return Capture("02-map");
             Time.timeScale=12;
-            while(c.State.phase!="Complete" && c.State.phase!="Defeat")
+            while(c.State.phase!="ChapterComplete" && c.State.phase!="Defeat")
             {
+                if(c.State.phase=="Intro") {c.ContinueIntro();yield return null;continue;}
+                if(c.State.phase=="Consequence")c.ContinueConsequence();
                 if(c.State.phase=="Map")
                 {
                     var node=elite?c.Data.nodes.Last(n=>n.depth==c.State.depth):c.Data.nodes.First(n=>n.depth==c.State.depth);
@@ -140,15 +142,17 @@ namespace VariablesEcho
                 if(c.State.phase=="Ending") {yield return new WaitForSeconds(2);yield return Capture("04-ending");c.ResolveEnding(!elite);}
                 yield return null;
             }
-            Check(c.State.phase=="Complete","route wins with unmodified HP and real cards");
+            Check(c.State.phase=="ChapterComplete","route wins with unmodified HP and real cards");
             yield return Capture("05-complete");
-            Check(c.Resume() && c.State.phase=="Complete","completed chapter persists");
+            Check(c.Resume() && c.State.phase=="ChapterComplete","completed chapter persists");
             string completeSave=File.ReadAllText(EchoChapterController.SavePath);
-            c.NewRun(111);c.State.credits=100;c.State.depth=3;c.Visit("market");
+            c.NewRun(111);while(c.State.phase=="Intro")c.ContinueIntro();
+            var market=c.Data.nodes.First(n=>n.kind==ChapterNodeKind.Shop);
+            c.State.credits=100;c.State.depth=market.depth;c.State.completedNodeId="legacy";c.Visit(market.id);
             Check(c.BuyCard() && !c.BuyCard(),"shop buys exactly once");
-            c.LeaveShop();c.State.depth=5;c.Visit("rest");int oldDeck=c.State.deck.Count;
+            c.LeaveShop();var rest=c.Data.nodes.First(n=>n.kind==ChapterNodeKind.Rest);c.State.depth=rest.depth;c.State.completedNodeId="legacy";c.Visit(rest.id);int oldDeck=c.State.deck.Count;
             c.Rest(201);Check(c.State.deck.Contains(1201) && c.State.deck.Count==oldDeck,"upgrade replaces one copy");
-            c.NewRun(112);c.State.hp=2;c.Visit("gate");c.EnterBattle();
+            c.NewRun(112);while(c.State.phase=="Intro")c.ContinueIntro();c.State.hp=2;c.Visit(c.Data.nodes.First(n=>c.CanVisit(n)).id);c.EnterBattle();
             yield return new WaitForSeconds(3);
             EchoRuntime.Battle.Noise.Add(100,"test-lethal-backlash");
             FindAnyObjectByType<TurnManagementSystem>().EndPlayerTurn();

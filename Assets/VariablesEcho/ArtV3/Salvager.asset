@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd67e5e2e21cb494c93012ae29ff6b22, type: 3}
   m_Name: Salvager
   m_EditorClassIdentifier: Assembly-CSharp::CCGKit.HeroTemplate
-  Name: Mneme
+  Name: 记忆者
   Prefab: {fileID: 4708182120111131023, guid: 360647ba1d3cc054a9bb4dede599ac0c, type: 3}
   Actions: []
   Hp: 80

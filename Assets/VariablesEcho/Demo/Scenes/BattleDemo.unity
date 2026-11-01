@@ -805,7 +805,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Back
+  m_text: 返回
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dafa7aab38eab491a8b802d9135a5a3f, type: 2}
   m_sharedMaterial: {fileID: -6639535469878751128, guid: dafa7aab38eab491a8b802d9135a5a3f, type: 2}
@@ -1432,7 +1432,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Player Turn
+  m_text: 你的回合
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dafa7aab38eab491a8b802d9135a5a3f, type: 2}
   m_sharedMaterial: {fileID: -6639535469878751128, guid: dafa7aab38eab491a8b802d9135a5a3f, type: 2}
@@ -3198,7 +3198,7 @@ MonoBehaviour:
     X: 0
     Y: 0
   Encounter:
-    Name: Nexus Marauder
+    Name: 枢纽掠夺者
     Background: {fileID: 21300000, guid: d29e76af5a54d1143a1b842e457469a5, type: 3}
     Enemies:
     - m_AssetGUID: a5bcf675fc9944549bdc9ed36d5c2522
@@ -5590,7 +5590,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Skip
+  m_text: 跳过
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dafa7aab38eab491a8b802d9135a5a3f, type: 2}
   m_sharedMaterial: {fileID: -6639535469878751128, guid: dafa7aab38eab491a8b802d9135a5a3f, type: 2}
@@ -5994,7 +5994,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: End Turn
+  m_text: 结束回合
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dafa7aab38eab491a8b802d9135a5a3f, type: 2}
   m_sharedMaterial: {fileID: -6639535469878751128, guid: dafa7aab38eab491a8b802d9135a5a3f, type: 2}

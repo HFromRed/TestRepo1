@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e31e688086974d25bb4daf05c561641, type: 3}
   m_Name: WizardRewards
   m_EditorClassIdentifier: 
-  Name: Rewards
+  Name: 奖励
   Entries:
   - Card: {fileID: 11400000, guid: 38ed43ce237cd420d8860ce7561ab364, type: 2}
     NumCopies: 1

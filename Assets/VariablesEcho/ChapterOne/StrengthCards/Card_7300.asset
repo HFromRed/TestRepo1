@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-369347977598197947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28fc1ddd72dcd744b47eaaaef70cb60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VariablesEcho.AmplifyEffect
+  SourceActions: []
+  TargetActions: []
+  Target: 0
+  Value: 2
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4065f389b584708aa1b58cf25db28b, type: 3}
+  m_Name: Card_7300
+  m_EditorClassIdentifier: Assembly-CSharp::CCGKit.CardTemplate
+  Id: 7300
+  Name: "\u4E49\u4F53\u6821\u51C6"
+  Cost: 1
+  Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  Picture: {fileID: 21300000, guid: 6ba4c7bf5df52f3418e2d31b9272527e, type: 3}
+  Type: {fileID: 11400000, guid: 5706228d194fe4efc9c75176d0986ca6, type: 2}
+  Upgrade: {fileID: 0}
+  Effects:
+  - {fileID: -369347977598197947}
+  CardId: strength-7300
+  Faction: 0
+  Rarity: 1
+  NoiseDelta: 0
+  IsSelfHarm: 0
+  IsPermanent: 0

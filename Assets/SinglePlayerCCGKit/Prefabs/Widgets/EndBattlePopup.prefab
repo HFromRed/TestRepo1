@@ -199,7 +199,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Title Text
+  m_text: 战斗结果
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bdec8eb865ac14198aba9f18e9a92e33, type: 2}
   m_sharedMaterial: {fileID: -2095102678433117944, guid: bdec8eb865ac14198aba9f18e9a92e33,
@@ -468,7 +468,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Continue
+  m_text: 继续
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bdec8eb865ac14198aba9f18e9a92e33, type: 2}
   m_sharedMaterial: {fileID: -2095102678433117944, guid: bdec8eb865ac14198aba9f18e9a92e33,
@@ -714,7 +714,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Add a card to your deck
+  m_text: 选择一张牌加入牌组
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: bdec8eb865ac14198aba9f18e9a92e33, type: 2}
   m_sharedMaterial: {fileID: -2095102678433117944, guid: bdec8eb865ac14198aba9f18e9a92e33,

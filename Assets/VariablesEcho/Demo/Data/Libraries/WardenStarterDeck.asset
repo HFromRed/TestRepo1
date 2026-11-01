@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e31e688086974d25bb4daf05c561641, type: 3}
   m_Name: WardenStarterDeck
   m_EditorClassIdentifier: Assembly-CSharp::CCGKit.CardLibrary
-  Name: Warden Starter Deck
+  Name: 守望者初始牌组
   Entries:
   - Card: {fileID: 11400000, guid: f082889ebba940a469f80421aa2bb596, type: 2}
     NumCopies: 5

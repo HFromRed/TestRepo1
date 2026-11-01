@@ -30,7 +30,7 @@ MonoBehaviour:
   m_Name: Shield
   m_EditorClassIdentifier: 
   Id: 2
-  Name: Shield
+  Name: 护盾
   Cost: 1
   Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   Picture: {fileID: 21300000, guid: 9b0fd2da10f404ed6973b1a2a9aa9dc2, type: 3}

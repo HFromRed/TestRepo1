@@ -1,4 +1,4 @@
-﻿// Copyright (C) 2019-2021 gamevanilla. All rights reserved.
+// Copyright (C) 2019-2021 gamevanilla. All rights reserved.
 // This code can only be used under the standard Unity Asset Store End User License Agreement,
 // a copy of which is available at http://unity3d.com/company/legal/as_terms.
 
@@ -16,7 +16,7 @@ namespace CCGKit
     {
         public override string GetName()
         {
-            return $"Deal {Value.ToString()} damage";
+            return $"造成 {Value.ToString()} 点伤害";
         }
 
         public override void Resolve(RuntimeCharacter instigator, RuntimeCharacter target)
@@ -33,7 +33,7 @@ namespace CCGKit
             var damage = Value;
 
             var strength = instigator.Status.GetValue("Strength");
-            damage += strength;
+            damage += strength + instigator.Status.GetValue("Amplify");
 
             var weak = instigator.Status.GetValue("Weak");
             if (weak > 0)

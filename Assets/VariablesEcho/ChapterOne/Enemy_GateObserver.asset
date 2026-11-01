@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95182502fc4277b897af15ceb2c04, type: 3}
   m_Name: Enemy_GateObserver
   m_EditorClassIdentifier: Assembly-CSharp::CCGKit.EnemyTemplate
-  Name: Gate Observer
+  Name: 门禁观察者
   Prefab: {fileID: 3881427009080786934, guid: ec5eac8b499ca1440bc7f9eb4cc6f54c, type: 3}
   Actions: []
   HpLow: 32

@@ -29,7 +29,7 @@ MonoBehaviour:
   m_Name: Defend
   m_EditorClassIdentifier: Assembly-CSharp::CCGKit.CardTemplate
   Id: 102
-  Name: Defend
+  Name: 防御
   Cost: 1
   Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   Picture: {fileID: 21300000, guid: b3ce5908b0bf4be4f9cd2e29e35b8166, type: 3}

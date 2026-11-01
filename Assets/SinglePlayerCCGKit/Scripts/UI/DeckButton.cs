@@ -15,6 +15,7 @@ namespace CCGKit
 
         public void OnButtonPressed()
         {
+            VariablesEcho.EchoAudioFeedback.Button();
             Canvas.gameObject.SetActive(true);
             View.AddCards(DeckDrawingSystem.GetDeck());
         }

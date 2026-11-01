@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd67e5e2e21cb494c93012ae29ff6b22, type: 3}
   m_Name: Wizard
   m_EditorClassIdentifier: 
-  Name: Wizard
+  Name: 法师
   Prefab: {fileID: 2832429604840509992, guid: 53030f4b933644115a80ce9e8b2396a1, type: 3}
   Actions: []
   Hp: 70

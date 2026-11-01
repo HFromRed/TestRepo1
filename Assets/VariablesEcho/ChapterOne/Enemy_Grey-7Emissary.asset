@@ -187,7 +187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95182502fc4277b897af15ceb2c04, type: 3}
   m_Name: Enemy_Grey-7Emissary
   m_EditorClassIdentifier: Assembly-CSharp::CCGKit.EnemyTemplate
-  Name: Grey-7 Emissary
+  Name: 灰七使者
   Prefab: {fileID: 4164617981529007381, guid: 8512773427782a7488114eb78fce6527, type: 3}
   Actions: []
   HpLow: 112

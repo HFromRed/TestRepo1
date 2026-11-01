@@ -62,3 +62,23 @@ MonoBehaviour:
     NumCopies: 1
   - Card: {fileID: 11400000, guid: ffa2c56efad50d34ba8f31604bb5f953, type: 2}
     NumCopies: 1
+  - Card: {fileID: 11400000, guid: a6d2be6e729fbde47b478d8d0692d8e4, type: 2}
+    NumCopies: 1
+  - Card: {fileID: 11400000, guid: 9d9943251fcdb394cbd62618a5f77234, type: 2}
+    NumCopies: 1
+  - Card: {fileID: 11400000, guid: 11d171ce032390a479a607b1b272e651, type: 2}
+    NumCopies: 1
+  - Card: {fileID: 11400000, guid: f763ee4490efa794c9a7a22487f595b0, type: 2}
+    NumCopies: 1
+  - Card: {fileID: 11400000, guid: a51e1270c94431349b7712d275ea24a7, type: 2}
+    NumCopies: 1
+  - Card: {fileID: 11400000, guid: 2afb3bdd332e0f54e90208e40bb9cf54, type: 2}
+    NumCopies: 1
+  - Card: {fileID: 11400000, guid: 27b7ba51d2775244ea373791cd9c007c, type: 2}
+    NumCopies: 1
+  - Card: {fileID: 11400000, guid: 385c84967f8834f478ee9d71f62b6b84, type: 2}
+    NumCopies: 1
+  - Card: {fileID: 11400000, guid: a77d69b24f02b95428e3a001976c85e2, type: 2}
+    NumCopies: 1
+  - Card: {fileID: 11400000, guid: 2c99ceb52984b8b498d7a2204cec653c, type: 2}
+    NumCopies: 1

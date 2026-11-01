@@ -28,10 +28,10 @@ MonoBehaviour:
   m_Name: Card_207
   m_EditorClassIdentifier: Assembly-CSharp::CCGKit.CardTemplate
   Id: 207
-  Name: Feedback
+  Name: 反馈
   Cost: 1
   Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  Picture: {fileID: 21300000, guid: 3d9b1e64c8a4bbe4e999eb9083d01521, type: 3}
+  Picture: {fileID: 21300000, guid: 3824d002b53e8f4409f9650c9556cbab, type: 3}
   Type: {fileID: 11400000, guid: 5706228d194fe4efc9c75176d0986ca6, type: 2}
   Upgrade: {fileID: 11400000, guid: b71413a879f5a3c43bc81ea27d2d5c39, type: 2}
   Effects:

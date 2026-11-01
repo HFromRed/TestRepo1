@@ -14,7 +14,7 @@ namespace VariablesEcho
     {
         public override string GetName()
         {
-            return $"Predict lock +{Value}";
+            return $"预测锁定 +{Value}";
         }
 
         public override void Resolve(RuntimeCharacter instigator, RuntimeCharacter target)

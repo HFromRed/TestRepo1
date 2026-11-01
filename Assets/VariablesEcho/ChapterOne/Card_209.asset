@@ -28,10 +28,10 @@ MonoBehaviour:
   m_Name: Card_209
   m_EditorClassIdentifier: Assembly-CSharp::CCGKit.CardTemplate
   Id: 209
-  Name: Open Question
+  Name: 开放问题
   Cost: 0
   Material: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  Picture: {fileID: 21300000, guid: 9a0a7eec36ac7444aa6bd030a0e30006, type: 3}
+  Picture: {fileID: 21300000, guid: d88e96a6a1e2d4048aaacba5fef04729, type: 3}
   Type: {fileID: 11400000, guid: 9c69fd0030dd74af2965de4ca9e2c7dc, type: 2}
   Upgrade: {fileID: 11400000, guid: 83043ba46634bc640b094bb6d5cb9919, type: 2}
   Effects:

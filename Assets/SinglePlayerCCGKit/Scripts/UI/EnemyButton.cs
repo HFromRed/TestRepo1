@@ -24,6 +24,7 @@ namespace CCGKit
         
         public void OnButtonPressed()
         {
+            VariablesEcho.EchoAudioFeedback.Button();
             /*var go = new GameObject("MapInfo");
             var info = go.AddComponent<MapInfo>();
             info.EnemyTemplate = enemyTemplate;

@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95182502fc4277b897af15ceb2c04, type: 3}
   m_Name: Enemy_ModelKeeper
   m_EditorClassIdentifier: Assembly-CSharp::CCGKit.EnemyTemplate
-  Name: Model Keeper
+  Name: 模型看守者
   Prefab: {fileID: 1540904976124444772, guid: efe47c96f4ae09e4fad8bc9c13076ac0, type: 3}
   Actions: []
   HpLow: 78

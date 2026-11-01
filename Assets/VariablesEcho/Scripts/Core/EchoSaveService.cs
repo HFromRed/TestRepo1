@@ -16,6 +16,8 @@ namespace VariablesEcho
             get
             {
 #if UNITY_EDITOR || DEVELOPMENT_BUILD
+                if (Array.IndexOf(Environment.GetCommandLineArgs(), "--campaign-smoke") >= 0)
+                    return Path.Combine(Application.temporaryCachePath, "campaign-smoke");
                 if (Array.IndexOf(Environment.GetCommandLineArgs(), "--chapter-smoke") >= 0)
                     return Path.Combine(Application.temporaryCachePath, "chapter-smoke");
 #endif

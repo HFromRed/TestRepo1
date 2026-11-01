@@ -13,6 +13,7 @@ namespace CCGKit
 
         public void OnButtonPressed()
         {
+            VariablesEcho.EchoAudioFeedback.Button();
             canvas.gameObject.SetActive(false);
             if (prevCanvas != null)
             {

@@ -62,7 +62,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b95182502fc4277b897af15ceb2c04, type: 3}
   m_Name: Enemy_ArchiveSentinel
   m_EditorClassIdentifier: Assembly-CSharp::CCGKit.EnemyTemplate
-  Name: Archive Sentinel
+  Name: 档案哨兵
   Prefab: {fileID: 7715418626371799884, guid: e638c1d06cc30e740a6b7468dc165028, type: 3}
   Actions: []
   HpLow: 56

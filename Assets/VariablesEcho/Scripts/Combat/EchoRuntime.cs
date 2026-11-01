@@ -193,7 +193,7 @@ namespace VariablesEcho
                 if (Meta != null)
                     Meta.FinalizeRun(false, EchoEndingId.None, Config);
             }
-            else if (Meta != null && Meta.Run != null && Meta.Run.finalBattle)
+            else if (Meta != null && Meta.Run != null && Meta.Run.finalBattle && EchoChapterController.Active == null)
             {
                 // 最终 BOSS 战胜利：按路线/污染/碎片/新卡条件结算结局。
                 Meta.FinalizeRun(true, EchoEndingId.None, Config);

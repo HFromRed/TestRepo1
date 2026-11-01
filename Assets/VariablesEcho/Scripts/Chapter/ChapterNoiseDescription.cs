@@ -5,6 +5,6 @@ namespace VariablesEcho
     public class ChapterNoiseDescription : Effect
     {
         public int amount;
-        public override string GetName() { return "Noise " + amount.ToString("+0;-0;0"); }
+        public override string GetName() { return "噪声 " + amount.ToString("+0;-0;0"); }
     }
 }

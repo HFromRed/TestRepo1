@@ -779,7 +779,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Back
+  m_text: 返回
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dafa7aab38eab491a8b802d9135a5a3f, type: 2}
   m_sharedMaterial: {fileID: -6639535469878751128, guid: dafa7aab38eab491a8b802d9135a5a3f,
@@ -1403,7 +1403,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Player Turn
+  m_text: 你的回合
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dafa7aab38eab491a8b802d9135a5a3f, type: 2}
   m_sharedMaterial: {fileID: -6639535469878751128, guid: dafa7aab38eab491a8b802d9135a5a3f,
@@ -5413,7 +5413,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Skip
+  m_text: 跳过
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dafa7aab38eab491a8b802d9135a5a3f, type: 2}
   m_sharedMaterial: {fileID: -6639535469878751128, guid: dafa7aab38eab491a8b802d9135a5a3f,
@@ -5810,7 +5810,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: End Turn
+  m_text: 结束回合
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dafa7aab38eab491a8b802d9135a5a3f, type: 2}
   m_sharedMaterial: {fileID: -6639535469878751128, guid: dafa7aab38eab491a8b802d9135a5a3f,
