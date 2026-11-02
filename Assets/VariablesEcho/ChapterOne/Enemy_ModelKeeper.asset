@@ -182,14 +182,14 @@ MonoBehaviour:
   counters:
   - tag: 2
     label: I know your anger
-    icon: {fileID: 21300000, guid: 4e73047f0baaef5419d33108a7ef091c, type: 3}
+    icon: {fileID: 21300000, guid: c0a694ab7b4b7e9428d34143a2d7c2de, type: 3}
     effects:
     - {fileID: -283063485058010198}
     - {fileID: -6536939519630898166}
     extraPredictLocks: 0
   - tag: 1
     label: I know your fear
-    icon: {fileID: 21300000, guid: 4e73047f0baaef5419d33108a7ef091c, type: 3}
+    icon: {fileID: 21300000, guid: c0a694ab7b4b7e9428d34143a2d7c2de, type: 3}
     effects:
     - {fileID: 6782258759731160027}
     - {fileID: -2659239696307766673}

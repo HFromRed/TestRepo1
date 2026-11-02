@@ -116,6 +116,17 @@ namespace VariablesEcho
             int value;
             intent.Kind = ClassifyKind(intent.Effects, out value);
             intent.Value = value;
+            // Pattern/counter artwork can be stale. Resolve the action icon from the
+            // actual effects assigned to the brain, never from its status artwork.
+            var theme = EchoArtTheme.Instance;
+            if (theme != null)
+            {
+                if (intent.Kind == EchoIntentKind.Attack && theme.attackIcon != null)
+                    chosenIcon = theme.attackIcon;
+                else if (intent.Kind == EchoIntentKind.Block && theme.blockIcon != null)
+                    chosenIcon = theme.blockIcon;
+            }
+            intent.Icon = chosenIcon;
             intent.IsUnknown = tier == EchoNoiseTier.Collapse;
 
             if (tier == EchoNoiseTier.Drift)
@@ -290,16 +301,23 @@ namespace VariablesEcho
             if (effects == null || effects.Count == 0)
                 return EchoIntentKind.Unknown;
 
-            var first = effects[0];
-            var integerEffect = first as IntegerEffect;
-            if (integerEffect != null)
-                value = integerEffect.Value;
+            // Mixed actions (shield + attack, status + attack) still threaten damage.
+            // Sum all hits, including attacks that are not first in the effect list.
+            bool attacks = false;
+            foreach (var effect in effects)
+                if (effect is DealDamageEffect damage)
+                { attacks = true; value += damage.Value; }
+            if (attacks) return EchoIntentKind.Attack;
 
-            if (first is DealDamageEffect)
-                return EchoIntentKind.Attack;
-            if (first is GainShieldEffect)
-                return EchoIntentKind.Block;
+            bool blocks = false;
+            foreach (var effect in effects)
+                if (effect is GainShieldEffect shield)
+                { blocks = true; value += shield.Value; }
+            if (blocks) return EchoIntentKind.Block;
 
+            foreach (var effect in effects)
+                if (effect is IntegerEffect integer)
+                { value = integer.Value; break; }
             return EchoIntentKind.Status;
         }
 

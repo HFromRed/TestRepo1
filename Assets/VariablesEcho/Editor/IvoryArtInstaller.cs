@@ -80,7 +80,7 @@ namespace VariablesEchoEditor
                 var enemy=data.nodes.First(n=>n.id==nodes[i]).enemy;var art=Image(names[i],true);
                 string path=Root+"/"+names[i]+".prefab";CopyCharacter(enemy.Prefab,path,art,true);enemy.Prefab=Load<GameObject>(path);
                 foreach(var p in enemy.Patterns.OfType<RepeatPattern>())p.Sprite=p.Effects.Any(e=>e is DealDamageEffect)?t.attackIcon:t.blockIcon;
-                if(enemy.EchoProfile!=null){foreach(var c in enemy.EchoProfile.counters)c.icon=t.noiseIcon;EditorUtility.SetDirty(enemy.EchoProfile);}
+                if(enemy.EchoProfile!=null){foreach(var c in enemy.EchoProfile.counters)c.icon=c.effects.Any(e=>e is DealDamageEffect)?t.attackIcon:c.effects.Any(e=>e is GainShieldEffect)?t.blockIcon:t.noiseIcon;EditorUtility.SetDirty(enemy.EchoProfile);}
                 foreach(var p in enemy.Patterns)EditorUtility.SetDirty(p);
                 EditorUtility.SetDirty(enemy);
             }
